@@ -8,4 +8,24 @@ Leia 3 valores de ponto flutuante (A, B e C) de uma equação do 2º grau.
 - Caso contrário, calcule e mostre as duas raízes (R1 e R2) formatadas com 5 casas decimais.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+import math
+
+A = float(input("Digite A: "))
+B = float(input("Digite B: "))
+C = float(input("Digite C: "))
+
+if A == 0:
+    print("Impossivel calcular")
+else:
+    delta = B ** 2 - 4 * A * C
+
+    if delta < 0:
+        print("Impossivel calcular")
+    else:
+        R1 = (-B + math.sqrt(delta)) / (2 * A)
+        R2 = (-B - math.sqrt(delta)) / (2 * A)
+
+        print(f"R1 = {R1:.5f}")
+        print(f"R2 = {R2:.5f}")
+        
