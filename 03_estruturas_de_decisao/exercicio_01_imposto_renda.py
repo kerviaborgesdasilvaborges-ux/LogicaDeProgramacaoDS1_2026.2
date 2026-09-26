@@ -13,3 +13,17 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario = float(input("digite o salario: "))
+if salario <=2000.00:
+    print("insento")
+elif salario <=3000.00:
+    inposto = (salario - 2000) * 0.08
+    print(f"{inposto:.2f}")
+elif salario <=4500.00:
+    inposto = (salario - 3000)* 0.18 + 80
+else:
+    imposto = (salario - 4500) * 0.28 + 350
+    print(f"{imposto:.2f}")
+
+
+
