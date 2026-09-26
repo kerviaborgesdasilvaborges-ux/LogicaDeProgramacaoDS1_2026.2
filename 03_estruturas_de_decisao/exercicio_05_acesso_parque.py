@@ -12,3 +12,14 @@ Imprima o tipo de bilhete e o valor final a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+idade = int(input("Digite a idade: "))
+
+if idade < 12:
+    print("Infantil")
+    print("R$ 50.00")
+elif idade >= 60:
+    print("Melhor Idade")
+    print("R$ 0.00")
+else:
+    print("Integral")
+    print("R$ 100.00")

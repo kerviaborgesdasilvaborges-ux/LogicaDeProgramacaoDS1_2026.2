@@ -14,4 +14,4 @@ Leia o código do item e a quantidade consumida.
 Calcule e mostre o total a pagar.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo map(int, input().split())
