@@ -8,4 +8,10 @@ Para cada tentativa incorreta, imprima "Senha Invalida".
 Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+senha_correta = "2002"
+senha=input ("digite a senha:")
+while senha != senha_correta:
+    print("senha_invalida:")
+    senha = input("digite a senha:")
+print("acesso_permitido:")
