@@ -8,4 +8,10 @@ Utilize uma estrutura de repetição e um contador para verificar quantos númer
 foram digitados. Ao final, imprima a quantidade total.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: De
+contador = 0
+for i in range(5):
+    numero = int(input("digite um numero:"))
+    if numero % 2 == 0:
+        contator = contador + 1
+print(contador)
