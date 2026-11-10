@@ -1,0 +1,135 @@
+idade= int(input("digite_sua_idade:"))
+if idade >=18 and idade <=35 and (condicionamento == "sim" or permisão_medica == "sim"
+print "atleta_aprovado!")
+else:
+    print ("atleta_nao_autorizado!")
+
+idade = float(input("digite_sua_idade")) 
+if idade >=18:
+    print ("maior_de_idade!")
+else:
+    print ("menor_de_idade!")
+
+
+nota = int(input("digite_sua_nonta"))
+if nota >=7
+    print ("aprovado!")
+if nota <=7
+    print ("reprovado!")
+
+numero = int(input("digite_o_numero")) 
+if numero > 0:
+    print ("positivo")
+elif numero < 0:
+    print ("negativo")
+else:
+    print ("zero")
+
+
+horario = float(input("digite_o_horario"))  
+if horario>=5 and horario <11:
+    print ("bom diaaa")
+elif horario>=12 and horario <17:
+    ("boa tardeee")
+elif horario>18 and horario <23:
+    print ("boa noitee")
+else:
+    print ("horario invalido")
+
+numero1 = float(input("digite_o_primeiro_numero:"))
+numero2 = float(input("digite_o_segundo_numero:"))
+if operacao == "+":
+    print ("numero1 + numero2")
+elif operacao == "-":
+    print ("numero1 - numero2")
+elif operacao == "*":
+    print ("numero1 * numero2")
+elif operacao == "/":
+    print ("numero1 / numero2")
+
+
+notas = float(input("digite_a_nota"))
+if nota >=7:
+    print ("aprovado!")
+elif nota >=5 or <7:
+    print ("recuperação!")
+elif nota <5:
+    print ("reprovado!")
+
+
+for numero in range (1,6):
+    print(i)
+
+
+    numero = 1 
+    while numero <=3:
+        print(numero)
+        numero = numero + 1
+
+for i in range (1,4)
+    print(i)
+
+for i in range (1,5):
+    print(i)
+
+for i in range (1,4):
+    print ("python")
+
+    numero = 1
+    while numero>=3:
+    print (numero)
+    numero = numero +1
+
+numero = 1
+while numero >=5:
+    print (numero)
+    numero = numero +1
+
+for i in range (1,8):
+    print (numero)
+
+for i in range (1,6):
+    print ("bom dia")
+
+for i in range (1,6):
+    print ("estou aprendendo python") 
+
+numero = 1
+while numero<=5:
+    print (numero)
+    numero = numero +1
+
+for i in range (2,11):
+    print (i)
+
+numero= 10
+while numero >=1:
+    print(numero)
+    numero = numero -1
+
+
+def mensagem():  
+    print("estou estudando funçoes em python!")
+mensagem()
+
+def somar(a,b):
+    print("a+b")
+    somar(5,3)
+
+def calcular_dobro(mensagem):
+    print(numero*2)
+    calcular_dobro(5)
+
+def calcular_triplo(mensagem):
+    print(numero*3)
+    calcular_triplo(9)
+
+
+def calcular_quadrado(mensagem):
+    print(numero*numero)
+    calcular_quadrado(5)
+
+def calcular_media(nota1,nota2):
+(print nota1 + nota2) / 2
+
+
