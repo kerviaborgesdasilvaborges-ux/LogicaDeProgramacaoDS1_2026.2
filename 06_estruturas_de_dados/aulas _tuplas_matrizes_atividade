@@ -1,0 +1,12 @@
+
+matriz = [
+    [8, 5],
+    [4, 1]
+]
+soma = 0
+
+for linha in matriz:
+    for elemento in linha:[]
+soma = soma + elemento
+
+print("A soma é:", soma)
