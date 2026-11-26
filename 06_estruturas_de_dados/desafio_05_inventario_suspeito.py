@@ -12,3 +12,12 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+itens = {"mouse","teclado","monitor","teclado","mouse"}
+itens_unicos = set(itens)
+laboratorio = { 
+"mouse" :10,
+"teclado" :5,
+"monitor" :6,
+}
+print = ("itens_unicos:" ,itens_unicos)
+print = ("quantidade_de_impresorras:",laboratorio.get("impressora",0)) 
