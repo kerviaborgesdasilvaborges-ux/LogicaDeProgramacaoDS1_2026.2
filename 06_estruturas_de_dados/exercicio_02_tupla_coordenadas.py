@@ -9,3 +9,11 @@ exibindo uma mensagem explicativa sobre imutabilidade.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+cidades = ("Tianguá", "São Benedito")
+
+try:
+    cidades[1] = "Sobral"
+
+except TypeError:
+    print("Não é possível alterar uma tupla, pois ela é imutável!")
